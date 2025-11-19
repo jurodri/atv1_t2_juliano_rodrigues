@@ -21,7 +21,7 @@ public class BrandsController {
     private final Map<Integer, Map<String, String>> brands = new HashMap<>(Map.of(
         1, Map.of("name", "Xiaomi", "country", "China", "founded", "2010"),
         2, Map.of("name", "Samsung", "country", "South Korea", "founded", "1938"),
-        3, Map.of("name", "Jovi", "country", "Brazil", "founded", "2015")
+        3, Map.of("name", "Jovi", "country", "Brazil", "founded", "2025")
     ));
 
     // GET ALL

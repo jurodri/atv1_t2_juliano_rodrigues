@@ -37,7 +37,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/iec-t2-atividades:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/atv1_t2_juliano_rodrigues:latest
           
       - name: Deploy no Render
         run: curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
